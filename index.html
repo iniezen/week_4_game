@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+    <!-- Added link to the jQuery Library -->
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class= "container" > 
+
+		<h1>Play Crystals Collector!</h1>
+		<p>You are given a goal number at start of the game.<br>
+
+		Clicking crystals gives you points based on their hidden value.<br>
+		Your goal is to match the goal number above.<br>
+		Each time game restarts, both the goal number and the value of crystals will change!
+	<div class="jumbotron">
+		</p>
+		<div id= "goalnumberdiv" class =".col-sm-6">
+		<h4>Your Goal:</h4>
+		<h1 id= "goalnumber">34</h1>
+
+		</div>
+
+		<div id= "scoreboard" class =".col-sm-6">
+			<p id="winstatus" class =".row"> Win Status</p>
+			<p id="wins" class =".row"> Win Count</p>
+			<p id="losses" class =".row"> Loss Count</p>
+
+		</div>
+
+			<div id="gallery" class="row">
+				 <div id="crystal1" class="col-sm-3">
+				   <img  class="img-responsive" src="assets/images/crystal1.jpg" />
+				 </div>
+				 <div id="crystal2" class="col-sm-3">
+				   <img class="img-responsive" src="assets/images/crystal2.jpeg"/>
+				 </div>
+
+				 <div id="crystal3" class="col-sm-3">
+				   <img class="img-responsive" src="assets/images/crystal3.jpeg"/>
+				 </div>
+				 <div id="crystal4" class="col-sm-3">
+				   <img class="img-responsive" src="assets/images/crystal4.jpeg"/>
+				 </div>
+
+			</div>
+
+
+		<div id= "gamescorediv" class =".col-sm-6">
+			<h4>Your Current Score Is:</h4>
+			<h1 id= "gamescore">34</h1>
+
+		</div>
+
+	</div>
+
+
+
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

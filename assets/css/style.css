@@ -1,0 +1,46 @@
+#goalnumberdiv{
+
+	float:left;
+	display:inline-block;
+	background-color: green;
+	width:50%;
+	text-align: center;
+	height:135px;
+}
+
+#scoreboard{
+
+	float:right;
+	display:inline-block;
+	background-color: lightblue;
+	width:50%;
+	text-align: center;
+}
+
+#gallery{
+	text-align: center;
+}
+
+img{
+
+	display:inline;
+	width:100%;
+	margin: 0;
+	padding:0;
+	height:128px;
+}
+
+#gamescorediv{
+
+	float:left;
+	display:inline-block;
+	background-color: rgba(128, 0, 128, 0.44);
+	width:50%;
+	text-align: center;
+	height:135px;
+}
+
+.jumbotron{
+	padding-top: 10px;
+    padding-bottom: 145px;
+}
